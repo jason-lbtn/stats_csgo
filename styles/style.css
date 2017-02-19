@@ -1,0 +1,905 @@
+@font-face {
+    font-family: soulMission;
+    src: url("fonts/SoulMission.ttf");
+}
+
+@font-face {
+	font-family: Agency FB;
+	src: url("fonts/agency_fb.ttf");
+}
+
+@font-face {
+	font-family: BLACK CAPS;
+	src: url("fonts/BLACKCAPS-Regular.ttf");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+body
+{
+	background-color: silver;
+	background: radial-gradient( white, rgb(145,145,145));
+	background-image: url("../WebDesign/background.png");
+}
+h36
+{
+color: black;
+font-family: Counter-strike;
+font-size: 50;
+}
+h37
+{
+color: gray;
+}
+h38
+{
+color: red;
+font-family: BLACK CAPS;
+font-size: 40;
+}
+h50
+{
+color: white;
+font-family: Transformers Movie;
+font-size: 30;
+margin-left: 0%;
+}
+h46
+{
+color: white;
+}
+a
+{
+text-decoration: none;
+}
+h47
+{
+border: 1px gray outset;
+background: linear-gradient(to bottom, silver, white);
+text-decoration: none;
+padding: 0.3% 2% 0.1% 2%;
+}
+h48
+{
+transition-duration: 0.3s;
+text-decoration: none;
+font-size: 20;
+font-family: Agency FB;
+color: black;
+font-weight: bold;
+color: black;
+padding: 0.1% 1% 0.1% 1%;
+}
+h49
+{
+text-decoration: none;
+font-size: 20;
+font-family: Agency FB;
+color: black;
+font-weight: bold;
+color: black;
+padding: 0.1% 1% 0.1% 1%;
+}
+h48:hover
+{
+transition-duration: 0.2s;
+color: red;
+}
+h45
+{
+color: gray;
+font-family: soulMission;
+font-size: 50;
+margin-left: 35%;
+}
+header
+{
+position: fixed;
+background: linear-gradient( 60deg, white , black );
+height: 0px;
+width: 100%;
+text-align: justify;
+margin: -7.6;
+margin-top: -15%;
+opacity: 0;
+transition: 1s;
+}
+header:hover
+{
+height: 230;
+margin: -7.6;
+margin-top: -6%;
+opacity: 1;
+transition-duration: 0.3s;
+transition-delay: 0.5s;
+}
+#img
+{
+margin-left: -80%;
+margin-top: -12.5%;
+opacity: 0.8;
+transition: 1s;
+color: rgb(255, 84, 0);
+}
+#img:hover
+{
+opacity: 1;
+transition: 1s;
+}
+#flou
+{
+opacity: 200;
+margin-top: -468;
+margin-left: -574;
+}
+#flou2
+{
+opacity: 200;
+margin-top: -643;
+margin-right: -500;
+}
+#sommaire
+{
+margin-left: 0;
+font-family: BLACK CAPS;
+font-size: 40;
+color: rgb(233, 92, 7);
+transition: 0.2s;
+}
+#ftop
+{
+position: fixed;
+margin-left: 108%;
+margin-top: -4%;
+transition: 0.8s;
+opacity: 0.5;
+}
+#ftop:hover
+{
+opacity: 1;
+}
+#ftop:active
+{
+margin-top: 28%;
+transition: 0s;
+}
+#Stats
+{
+margin-top: -160px;
+}
+#Stats:hover
+{
+margin-top: -160px;
+}
+#menu
+{
+height: 30px;
+margin-top: -42px;
+margin-left: -250px;
+background: radial-gradient( silver, rgb(145,145,145));
+opacity: 0.7;
+
+}
+#playerstitle
+{
+color: blue;
+font-size: 20;
+font-family: BLACK CAPS;
+text-decoration: none;
+margin-left: 270px;
+padding: 20px;
+transition: 0.3s;
+}
+#playerstitle:hover
+{
+font-size: 20;
+margin-left: 270px;
+padding: 20px;
+border: 3px orange ridge;
+border-radius: 1000px;
+background-color: white;
+color: rgb(233, 92, 7);
+opacity: 1;
+transition: 0.3s;
+}
+#weaponstitle
+{
+color: blue;
+font-size: 20;
+font-family: BLACK CAPS;
+text-decoration: none;
+margin-left: 270px;
+padding: 20px;
+transition: 0.3s;
+}
+#weaponstitle:hover
+{
+font-size: 20;
+margin-left: 270px;
+padding: 20px;
+border: 3px orange ridge;
+border-radius: 1000px;
+background-color: white;
+color: rgb(233, 92, 7);
+opacity: 1;
+transition: 0.3s;
+}
+#spec
+{
+color: blue;
+font-size: 20;
+font-family: BLACK CAPS;
+text-decoration: none;
+margin-left: 270px;
+padding: 20px;
+transition: 0.3s;
+}
+#spec:hover
+{
+font-size: 20;
+margin-left: 270px;
+padding: 20px;
+border: 3px orange ridge;
+border-radius: 1000px;
+background-color: white;
+color: rgb(233, 92, 7);
+opacity: 1;
+transition: 0.3s;
+}
+p
+{
+color: black;
+text-align: left;
+font-family: arial;
+font-size: 17;
+}
+h1
+{
+font-family: tele-marines;
+text-align: center;
+font-size: 65;
+text-shadow: 4px 4px 8px black;
+}
+h2
+{
+color: purple;
+font-family: tele-marines;
+text-align: left;
+font-size: 25;
+text-shadow: 2px 2px 4px gray;
+}
+h3
+{
+color: white;
+font-family: soulMission;
+text-align: left;
+font-size: 25;
+text-shadow: 2px 2px 4px gray;
+margin-top: 5%;
+margin-left: 450;
+padding-bottom: -50%
+}
+#lien
+{
+margin-left: -1200;
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-align: left justify;
+opacity: 0.6;
+transition: 0.3s;
+}
+#lien:hover
+{
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-shadow: 3px 3px 3px gray;
+text-align: left justify;
+opacity: 1;
+transition: 0.3s;
+}
+#lien:active
+{
+font-size: 22;
+opacity: 1;
+transition: 0.1s;
+}
+#lien1
+{
+margin-left: -1245;
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-align: left justify;
+opacity: 0.6;
+transition: 0.3s;
+}
+#lien1:hover
+{
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-shadow: 3px 3px 3px gray;
+text-align: left justify;
+opacity: 1;
+transition: 0.3s;
+}
+#lien1:active
+{
+font-size: 22;
+transition: 0.1s;
+}
+#lien2
+{
+margin-left: -1279;
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-align: left justify;
+opacity: 0.6;
+transition: 0.3s;
+}
+#lien2:hover
+{
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-shadow: 3px 3px 3px gray;
+text-align: left justify;
+opacity: 1;
+transition: 0.3s;
+}
+#lien2:active
+{
+font-size: 22;
+transition: 0.1s;
+}
+span a
+{
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-align: left justify;
+opacity: 0.6;
+}
+#Heure
+{
+font-family: arial;
+color: gray;
+text-align: left;
+font-size: 25;
+text-shadow: 2px 2px 4px gray;
+}
+h3 span
+{
+color: rgb(255, 84, 0);
+font-family: soulMission;
+text-align: left;
+font-size: 30;
+text-shadow: 2px 2px 3px black;
+}
+div
+{
+color: black;
+font-family: arial;
+font-size: 18;
+text-align: right;
+}
+em
+{
+color: black;
+font-family: arial;
+font-size: 15;
+text-align: right;
+font-style: normal;
+}
+h4
+{
+background-color: rgb(223, 223, 223);
+width: 75%;
+border: 2px gray outset;
+font-family: verdana;
+font-size: 15;
+text-align: left;
+margin: 3px 0px 0px 0px;
+padding: 0px 0px 0px 5px;
+transition: 0.3s;
+background: linear-gradient( to bottom, white, gray);
+}
+#lienHeader
+{
+transition: 1s;
+margin-left: 3%;
+text-decoration: none;
+font-family: Counter-strike;
+font-size: 30;
+color: black;
+}
+#liensHeader:hover
+{
+transition: 0.4s;
+margin-left: 1%;
+text-decoration: none;
+font-family: Counter-strike;
+font-size: 30;
+color: rgb(255, 84, 0);
+}
+#liensHeader
+{
+transition: 1s;
+margin-left: 1%;
+text-decoration: none;
+font-family: Counter-strike;
+font-size: 30;
+color: black;
+}
+#lienHeader:hover
+{
+transition: 0.4s;
+text-decoration: none;
+font-family: Counter-strike;
+font-size: 30;
+color: rgb(255, 84, 0);
+}
+#lienHeaderOption
+{
+transition: 1s;
+margin-left: 88%;
+text-decoration: none;
+font-family: Counter-strike;
+font-size: 30;
+color: rgb(255, 84, 0);
+}
+#lienHeaderOption:hover
+{
+transition: 0.5s;
+text-decoration: none;
+font-family: Counter-strike;
+font-size: 30;
+color: gray;
+}
+#lienHeaderOption:active
+{
+transition: 0s;
+color: black;
+}
+#optionTitre
+{
+margin-left: 0%;
+margin-bottom: 1%;
+}
+#h49:hover
+{
+color: black;
+}
+#Copyright
+{
+margin-top: 50%;
+margin-left: 76%;
+font-size: 25;
+font-family: Agency FB;
+color: black;
+}
+#Copyrights
+{
+margin-top: 50%;
+margin-left: 88%;
+font-size: 20;
+font-family: Agency FB;
+color: black;
+}
+h4:hover
+{
+background-color: rgb(223, 223, 223);
+width: 80%;
+border: 2px black outset;
+font-family: verdana;
+font-size: 15;
+text-align: left;
+margin-left: -10%;
+margin-right: -10%;
+transition: 0.2s;
+background: radial-gradient( white, gray);
+}
+h6
+{
+border: 2px gray outset;
+border-radius: 1000px;
+background: radial-gradient( white, gray );
+color: red;
+font-family: SoulMission;
+text-align: center;
+font-size: 30;
+text-shadow: 4px 4px 8px black; 
+padding-bottom: 5;
+padding-top: 5;
+margin-top: 30;
+margin-bottom: 20;
+width: 50%;
+}
+h7
+{
+color: rgb(233, 92, 7);
+text-align: right;
+font-family: Agency FB;
+font-size: 35;
+text-shadow: 1px 1px 2px gray;
+}
+h8
+{
+color: black;
+font-family: soulMission;
+font-size: 20;
+text-align: right;
+}
+h10
+{
+color: red;
+font-family: soulMission;
+font-size: 27;
+text-align: right;
+}
+#sideBarContents
+{
+margin-top: 215;
+}
+h11
+{
+color: rgb(233, 92, 7);
+font-family: Agency FB;
+font-size: 20;
+}
+h12
+{
+color: black;
+font-family: Agency FB;
+font-size: 20;
+}
+h20
+{
+color: black;
+font-family: Agency FB;
+font-size: 30;
+}
+h15
+{
+color: white;
+font-family: SoulMission;
+text-align: center;
+font-size: 25;
+text-shadow: 4px 4px 8px black; 
+}
+#topTitle
+{
+font-family: CGF Locust Resistance;
+}
+h16
+{
+font-size: 18;
+font-family: Agency FB;
+color: black;
+}
+h17
+{
+font-size: 25;
+font-family: Agency FB;
+color: rgb(255, 84, 0);
+}
+h21
+{
+font-size: 20;
+font-family: Arial;
+font-weight: bold;
+color: yellow;
+text-shadow: 1px 2px 10px black;
+transition: 0.5s;
+}
+h22
+{
+font-size: 30;
+font-family: BLACK CAPS;
+color: orange;
+text-shadow: -2px 2px 3px gray;
+transition: 0.5s;
+}
+h23
+{
+font-size: 15;
+font-family: Arial;
+font-weight: bold;
+color: rgb(63, 63, 63);
+transition: 0.2s;
+}
+h60
+{
+font-size: 26;
+font-family: Agency FB;
+color: black;
+transition: 0.2s;
+}
+h25
+{
+font-size: 15;
+font-family: BLACK CAPS;
+}
+h25:hover
+{
+font-size: 15;
+font-family: BLACK CAPS;
+}
+h26
+{
+color: white;
+font-family: Agency FB;
+font-weight: bold;
+font-size: 22;
+}
+h27
+{
+font-size: 25;
+}
+h28
+{
+width: 20%;
+height: 40%;
+margin-left: 300;
+background-color: rgb(223, 223, 223);
+border: 2px gray outset;
+}
+h29
+{
+background-color: rgb(223, 223, 223);
+border: 2px gray outset;
+}
+#lienFooter
+{
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-align: left justify;
+opacity: 0.6;
+transition: 0.5s;
+color: blue;
+text-shadow: 3px 3px 6px black;
+}
+#lienFooter:hover
+{
+color: blue;
+font-family: Agency FB;
+font-size: 25;
+text-decoration: none;
+text-shadow: 2px 2px 3px gray;
+text-align: left justify;
+opacity: 1;
+transition: 0.5s;
+}
+#lienFooter:active
+{
+text-shadow: 1px 1px 1px gray;
+}
+tr
+{
+transition-duration: 0.2s;
+min-height: 2.5em;
+}
+tr:hover
+{
+transition-duration: 0.1s;
+background-color: rgb(235, 235, 235);;
+}
+td
+{
+border: 1px solid black;
+padding-top: -10px;
+min-width: 100px;
+max-width: 100px;
+text-align: center;
+font-size: 15;
+color: black;
+font-family: Agency FB;
+}
+th
+{
+font-family: Agency FB;
+font-size: 1em;
+background-image: url("");
+background-size: 100% 100%;
+border: 1px solid black;
+padding-top: -10px;
+min-width: 100px;
+max-width: 100px;
+font-weight: normal;
+color: white;
+}
+#place
+{
+min-width: 7%;
+max-width: 7%;
+width: 7%;
+}
+#score
+{
+min-width: 6%;
+max-width: 6%;
+width: 6%;
+}
+#assists
+{
+min-width: 6%;
+max-width: 6%;
+width: 6%;
+}
+#FriendsK
+{
+min-width: 5%;
+max-width: 5%;
+width: 5%;
+}
+#Otages
+{
+min-width: 4%;
+max-width: 4%;
+width: 4%;
+}
+#Bombe
+{
+	min-width: 8%;
+	max-width: 8%;
+	width: 8%;
+}
+#Joueurs
+{
+min-width: 20%;
+max-width: 20%;
+width: 20%;
+}
+#precision
+{
+min-width: 6%;
+max-width: 6%;
+width: 6%;
+}
+#BNPB
+{
+min-width: 15%;
+max-width: 15%;
+width: 15%;
+}
+#BNPBA
+{
+min-width: 33.33%;
+max-width: 33.33%;
+width: 33.33%;
+}
+#BEST
+{
+min-width: 30%;
+max-width: 30%;
+width: 30%;
+}
+#KMH
+{
+min-width: 4%;
+max-width: 4%;
+width: 4%;
+}
+#H
+{
+min-width: 5%;
+max-width: 5%;
+width: 5%;
+}
+table
+{
+background-color: rgb(200, 200, 200);
+border-collapse: collapse;
+text-align: center;
+width: 100%;
+max-width: 100%;
+}
+#sommaireMenu
+{
+margin-left: 3%;
+}
+#corps
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+	background: radial-gradient(rgb(255, 83, 0), black);
+	background-repeat: repeat-y;
+	box-shadow: 0px 3px 12px black;
+	z-index: 100;
+}
+#banLeft
+{
+	float: left;
+	width: 15%;
+	background-image: url("../WebDesign/background3left.png");
+	background-size: 100% 100%;
+	background-repeat: repeat-y;
+	box-shadow: -2.5px 1px 3px black;
+	z-index: 10;
+}
+#banRight
+{
+	float: right;
+	width: 15%;
+	background-color: rgb(220, 220, 220);
+	background-image: url("../WebDesign/background3right.png");
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+	box-shadow: 2.5px 1px 3px black;
+	z-index: 10;
+	transition-duration: 0.1s;
+}
+h111
+{
+color: rgb(255, 120, 20);
+font-weight: bold;
+font-family: Agency FB;
+font-size: 17;
+}
+h112
+{
+color: black;
+font-family: Agency FB;
+font-size: 20;
+}
+h260
+{
+color: rgb(255, 120, 50);
+font-family: Agency FB;
+font-weight: bold;
+font-size: 22;
+}
+
+#classement	{
+	border-top: 0.1em solid black;
+	padding-top: 0.1em;
+	background-image: url("../WebDesign/Title.png");
+	background-size: cover;
+	text-align: center;
+	color: black;
+	font-family: Agency FB;
+	font-size: 25;
+	border-bottom: 0.1em solid black;
+}
+
+#tBold {
+	font-size: 0.9em;
+	font-family: soulMission;
+	color: white;
+	font-weight: bold;
+}
+
+h360 {
+font-size: 25;
+font-family: soulMission;
+color: white;
+}
+#TeamCase {
+	background-image: url("../WebDesign/FirstCase.png");
+	background-size: 300% 300%;
+	background-repeat: no-repeat;
+	min-width: 20%;
+	max-width: 20%;
+	width: 20%;
+}
+#bandeau {
+	background-image: url("../WebDesign/background3right.png");
+}

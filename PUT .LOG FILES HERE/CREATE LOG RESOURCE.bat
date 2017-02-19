@@ -1,0 +1,1 @@
+copy *.log C:\wamp\www\stats_csgo\stat.log

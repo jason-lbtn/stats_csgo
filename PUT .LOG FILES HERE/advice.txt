@@ -1,0 +1,3 @@
+Launch CREATE LOG RESOURCE ;)
+
+(not working otherwise)

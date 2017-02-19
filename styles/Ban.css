@@ -1,0 +1,21 @@
+#rightBan
+{
+color: rgb(95, 95, 95);
+font-weight: bold;
+font-family: Agency FB;
+font-size: 20;
+transition-duration: 0.3s;
+}
+#rightBan:hover
+{
+color: rgb(160, 160, 190);
+transition-duration: 0.2s;
+}
+#info
+{
+color: gray;
+font-weight: bold;
+font-family: Agency FB;
+font-size: 13;
+margin-left: 5px;
+}

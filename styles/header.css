@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+#titre
+{
+	z-index: 100;
+	background: url("../WebDesign/Title.png");
+	background-size: cover;
+	font-family: Agency FB;
+	font-size: 2em;
+	border-bottom: 0.1em solid black;
+}
+#sommaire
+{
+	background-image: url("../WebDesign/somPages2.png");
+	background-size: cover;
+	z-index: 10;
+	color: white;
+	font-family: Arial;
+	font-size: 1.2em;
+	height: 5.5%;
+	padding-top: 0.75em;
+	border-bottom: 0.1em solid black;
+}
+#lienSommaire
+{
+	background-image: url("../WebDesign/somLinksHover.png");
+	background-size: 100% 90%;
+	border: 0px solid silver;
+	padding: 2%;
+	font-family: soulMission;
+	font-weight: bold;
+	color: white;
+	transition-duration: 0.3s;
+}
+#lienSommaire:hover
+{
+	transition-duration: 0.1s;
+	color: orange;
+}

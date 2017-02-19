@@ -1,0 +1,16 @@
+#opt
+{
+	background: linear-gradient(to right, gray, silver);
+	text-align: left;
+	color: white;
+	font-family: Agency FB;
+	font-size: 25;
+	font-weight: bold;
+}
+
+#optionsLabels
+{
+font-size: 1em;
+font-family: Agency FB;
+color: white;
+}
